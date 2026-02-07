@@ -1,0 +1,81 @@
+/* 基本設定 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* ヘッダー */
+header {
+    padding: 15px;
+    background: #fff;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+/* ヒーローエリア */
+.hero {
+    padding: 40px 20px;
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url('hero-bg.jpg'); /* 背景画像用 */
+    background-size: cover;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.hero h1 span {
+    color: #e67e22; /* アクセントカラー */
+    display: block;
+    font-size: 1.8rem;
+}
+
+.price-tag {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* LINEボタン共通 */
+.btn-line {
+    display: inline-block;
+    background-color: #06C755;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(6, 199, 85, 0.3);
+}
+
+/* 料金プラン */
+.pricing {
+    padding: 40px 20px;
+}
+
+.plan-card {
+    background: #fff;
+    border: 2px solid #eee;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.main-plan {
+    border-color: #e67e22;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e67e22;
+}
